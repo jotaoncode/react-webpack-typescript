@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "module": "commonjs",
+        "moduleResolution": "classic",
+        "target": "es5",
+        "jsx": "react"
+    },
+    "filesGlob": [
+      "./**/*.{ts,tsx}",
+      "!./node_modules/**"
+    ],
+    "files": [
+        "./typings/index.d.ts",
+        "./src/components/learn/learn.tsx",
+        "./src/components/learn/dancingStyle.tsx",
+        "./src/components/learn/dancingStyles.tsx",
+        "./src/components/stylesLearnt/styleLearnt.tsx",
+        "./src/components/stylesLearnt/stylesLearnt.tsx",
+        "./src/components/danceFloor.tsx",
+        "./src/components/about.tsx",
+        "./src/dispatcher/appDispatcher.tsx",
+        "./src/index.tsx"
+    ]
+}
