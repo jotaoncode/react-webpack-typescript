@@ -27,3 +27,11 @@ It will be divided in 6 days of learning and teaching. Learning because it is al
 - Typescript
 
 - Jest
+
+#Requirements to start typescript
+
+Follow this steps :)
+
+https://www.typescriptlang.org/docs/handbook/react-&-webpack.html
+
+And then just install the tools you need for your favorite IDE, I am using Atom at the moment.
