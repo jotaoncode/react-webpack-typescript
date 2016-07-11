@@ -1,0 +1,11 @@
+{
+  "resolution": "main",
+  "tree": {
+    "src": "https://raw.githubusercontent.com/convoyinc/typed-react-addons-update/7965758/typings.json",
+    "raw": "registry:npm/react-addons-update#0.14.0+20160324044346",
+    "main": "index.d.ts",
+    "global": false,
+    "name": "react-addons-update",
+    "type": "typings"
+  }
+}

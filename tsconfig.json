@@ -14,13 +14,11 @@
     ],
     "files": [
         "./typings/index.d.ts",
-        "./src/components/learn/learn.tsx",
-        "./src/components/learn/dancingStyle.tsx",
-        "./src/components/learn/dancingStyles.tsx",
-        "./src/components/stylesLearnt/styleLearnt.tsx",
-        "./src/components/stylesLearnt/stylesLearnt.tsx",
-        "./src/components/danceFloor.tsx",
-        "./src/components/about.tsx",
+        "./src/components/animations/fullList.tsx",
+        "./src/components/animations/listItem.tsx",
+        "./src/components/playable/playable.tsx",
+        "./src/components/playable/playables.tsx",
+        "./src/components/animation.tsx",
         "./src/dispatcher/appDispatcher.tsx",
         "./src/index.tsx"
     ]

@@ -1,9 +1,9 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
 
-import { DanceFloor } from "./components/danceFloor";
+import { Application } from "./components/application";
 
 ReactDOM.render(
-    <DanceFloor floor="Bar" />,
+    <Application floor="Bar" />,
     document.getElementById("example")
 );
