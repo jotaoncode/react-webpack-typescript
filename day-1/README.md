@@ -21,3 +21,9 @@ Learn as much as possible on the latest trends, and provide to my partners some 
 - Flux Architecture
 
 - Questions
+
+#Contributors
+
+Juan José García
+
+wwww.jotaoncode.com
