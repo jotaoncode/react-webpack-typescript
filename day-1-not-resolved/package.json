@@ -4,7 +4,9 @@
   "description": "ejemplo",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack",
+    "start:dev": "webpack-dev-server"
   },
   "author": "Jotaoncode",
   "license": "ISC",
@@ -21,6 +23,8 @@
   "devDependencies": {
     "retyped-classnames-tsd-ambient": "0.0.0-0",
     "source-map-loader": "^0.1.5",
-    "ts-loader": "^0.8.2"
+    "ts-loader": "^0.8.2",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
   }
 }
