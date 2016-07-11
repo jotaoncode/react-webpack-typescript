@@ -4,6 +4,6 @@ import * as ReactDOM from "react-dom";
 import { Application } from "./components/application";
 
 ReactDOM.render(
-    <Application floor="Bar" />,
+    <Application />,
     document.getElementById("example")
 );
