@@ -1,0 +1,1 @@
+{"version":3,"file":"CommonAction.js","sourceRoot":"","sources":["../../src/actions/CommonAction.tsx"],"names":[],"mappings":";AAEA;IAGE,sBAAa,IAAY,EAAE,GAAsB;QAC/C,IAAI,CAAC,IAAI,GAAG,IAAI,CAAC;QACjB,IAAI,CAAC,GAAG,GAAG,GAAG,CAAC;IACjB,CAAC;IACH,mBAAC;AAAD,CAAC,AAPD,IAOC;AACD;kBAAe,YAAY,CAAC"}
