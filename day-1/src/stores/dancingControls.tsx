@@ -31,6 +31,12 @@ class PlayingActions extends events.EventEmitter {
   getSelectedStyle() {
     return actualStyle;
   }
+  getControlState() {
+    return {
+      selectedStyle: this.getSelectedStyle(),
+      isPlaying: this.isPlaying()
+    }
+  }
   emitChange() {
     this.emit(CHANGE_EVENT);
   }

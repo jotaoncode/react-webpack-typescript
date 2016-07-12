@@ -1,12 +1,14 @@
 import * as React from "react";
-import learningActions from "../../actions/learningActions";
-import { IStyleLearntState } from '../../stores/dancingStyles';
 
-export class ListItem extends React.Component<IStyleLearntState, void> {
-    learnDancingStyle() {
-      learningActions.learnDancingStyle(this.props);
-    }
+interface IliItem {
+  onLiClick: Function,
+  liText: string
+}
+/**
+ * Representational component
+ */
+export class ListItem extends React.Component<IliItem, void> {
     render() {
-        return <li onClick={this.learnDancingStyle.bind(this)}>{this.props.song}</li>;
+        return <li onClick={this.props.onLiClick}>{this.props.liText}</li>;
     }
 }

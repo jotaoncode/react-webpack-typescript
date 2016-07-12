@@ -9,22 +9,16 @@ export interface IAnimationState { isPlaying: boolean; selectedStyle: IStyleLear
 export class Animation extends React.Component<IAnimationProps, IAnimationState> {
     constructor() {
       super();
-      this.state = {
-        isPlaying: dancingControls.isPlaying(),
-        selectedStyle: dancingControls.getSelectedStyle()
-      };
+      this.state = dancingControls.getControlState();
     }
     componentWillMount() {
       dancingControls.addChangeListener(this.onChange.bind(this));
     }
     componentWillUnmount() {
-      dancingControls.removeChangeListener(this.onChange.bind(this));
+      dancingControls.removeChangeListener(this.onChange);
     }
     onChange() {
-      this.setState({
-        isPlaying: dancingControls.isPlaying(),
-        selectedStyle: dancingControls.getSelectedStyle()
-      });
+      this.setState(dancingControls.getControlState());
     }
     render() {
       let classPlaying = this.state.isPlaying ? 'play': 'stop';
