@@ -19,6 +19,7 @@
         "./src/components/playable/playable.tsx",
         "./src/components/playable/playables.tsx",
         "./src/components/animation.tsx",
+        "./src/components/about.tsx",
         "./src/dispatcher/appDispatcher.tsx",
         "./src/index.tsx"
     ]

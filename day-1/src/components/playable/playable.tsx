@@ -19,7 +19,7 @@ export class Playable extends React.Component<IStyleLearntState, void> {
       }
       return <li>
               {this.props.song}
-              <button onClick={this.props.}>{textButton}</button>
+              <button onClick={this.togglePlay.bind(this)}>{textButton}</button>
               <button onClick={this.forgetDancingStyle.bind(this)}>Remove</button>
              </li>;
     }
