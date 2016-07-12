@@ -1,26 +1,20 @@
 #Synopsis
 
-First day on training with react, typescript, flux and webpack.
+Second day on training with react, typescript, flux and webpack.
 
 #Objectives
 
 Learn as much as possible on the latest trends, and provide to my partners some knowledge and tools they can use.
 
-- Introduction to ReactJs
+- Refactor React application of day - 1 in order to make it more clear to keep on working.
 
-- Components
+- Presentation Components
 
-- Props and State
+- Component Containers
 
-- Communication between Components
+- React Router
 
-- The Finer Points
-
-- Thinking in React
-
-- Flux Architecture
-
-- Questions
+- Introduction to React / Redux
 
 #Contributors
 
