@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "module": "commonjs",
+        "moduleResolution": "classic",
+        "target": "es5",
+        "jsx": "react"
+    },
+    "filesGlob": [
+      "./**/*.{ts,tsx}",
+      "!./node_modules/**"
+    ],
+    "files": [
+        "./typings/index.d.ts",
+        "./src/components/animations/fullList.tsx",
+        "./src/components/animations/listItem.tsx",
+        "./src/components/playable/playable.tsx",
+        "./src/components/playable/playables.tsx",
+        "./src/components/animation.tsx",
+        "./src/dispatcher/appDispatcher.tsx",
+        "./src/index.tsx"
+    ]
+}
