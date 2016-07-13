@@ -8,22 +8,16 @@ export interface IStylesLearntProps { }
 export class ListToPlay extends React.Component<IStylesLearntProps, IStylesLearntState> {
     constructor() {
       super();
-      this.state = {
-        stylesLearnt: dancingStyle.getDancingLearnt(),
-        existingStyles: dancingStyle.getDancingStyles()
-      };
+      this.state = dancingStyle.getDancingState();
     }
-    componentWillMount() {
+    componentWillMount() { 
       dancingStyle.addChangeListener(this.onChange.bind(this));
     }
     componentWillUnmount() {
       dancingStyle.removeChangeListener(this.onChange.bind(this));
     }
     onChange() {
-      this.setState({
-        stylesLearnt: dancingStyle.getDancingLearnt(),
-        existingStyles: dancingStyle.getDancingStyles()
-      });
+      this.setState(dancingStyle.getDancingState());
     }
     public render() {
       var styles = this.state.stylesLearnt.map((style: IStyleLearntState, index: number) => {
