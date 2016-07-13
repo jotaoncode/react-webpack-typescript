@@ -4,7 +4,9 @@
   "description": "ejemplo",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack",
+    "start:dev": "webpack-dev-server"
   },
   "author": "Jotaoncode",
   "license": "ISC",
@@ -16,7 +18,10 @@
     "react": "^15.2.0",
     "react-addons-update": "^15.2.1",
     "react-dom": "^15.2.0",
-    "ts-eventemitter": "^0.1.0"
+    "react-router": "^2.5.2",
+    "ts-eventemitter": "^0.1.0",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
   },
   "devDependencies": {
     "retyped-classnames-tsd-ambient": "0.0.0-0",
