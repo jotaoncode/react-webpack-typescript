@@ -1,0 +1,30 @@
+{
+  "name": "proj",
+  "version": "1.0.0",
+  "description": "ejemplo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack",
+    "start:dev": "webpack-dev-server"
+  },
+  "author": "Jotaoncode",
+  "license": "ISC",
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "events": "^1.1.1",
+    "flux": "^2.1.1",
+    "material-ui": "^0.15.1",
+    "react": "^15.2.0",
+    "react-addons-update": "^15.2.1",
+    "react-dom": "^15.2.0",
+    "ts-eventemitter": "^0.1.0"
+  },
+  "devDependencies": {
+    "retyped-classnames-tsd-ambient": "0.0.0-0",
+    "source-map-loader": "^0.1.5",
+    "ts-loader": "^0.8.2",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
