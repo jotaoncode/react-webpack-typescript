@@ -70,6 +70,12 @@ class DancingStylesStore extends events.EventEmitter {
   getDancingLearnt(): Array<IStyleLearntState> {
     return dancingStyles.stylesLearnt;
   }
+  getDancingState(): IStylesLearntState {
+    return {
+        stylesLearnt: this.getDancingLearnt(),
+        existingStyles: this.getDancingStyles()
+      }
+  }
 }
 const dancingStylesStore = new DancingStylesStore();
 appDispatcher.register(function (action: CommonAction) {
