@@ -1,5 +1,4 @@
 import React, { PropTypes, Component } from 'react'
-import Radium from 'radium';
 /* component styles */
 import { styles } from './Director.scss';
 
