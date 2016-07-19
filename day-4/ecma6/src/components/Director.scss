@@ -1,0 +1,6 @@
+:local(.styles) {
+  color: black;
+  &:hover {
+    color: blue;
+  }
+}
