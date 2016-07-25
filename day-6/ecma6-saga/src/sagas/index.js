@@ -13,8 +13,7 @@ function userGuessNumber(numberGuess) {
 export function* generateNumber() {
   while(true) {
     yield take(actions.GENERATE_NUMBER);
-    const response = yield call(serverGenerateNumber);
-    yield put(actions.numberGenerated(response));
+    yield* initialGeneratedNumber();
   }
 }
 
