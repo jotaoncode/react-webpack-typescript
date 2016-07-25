@@ -3,10 +3,10 @@
  * Module dependencies
  */
 
-var express = require('express'),
-  http = require('http'),
-  bodyParser = require('body-parser'),
-  path = require('path'),
+var express           = require('express'),
+  http                = require('http'),
+  bodyParser          = require('body-parser'),
+  path                = require('path'),
   guessingNumberModel = require('./model'),
   app = module.exports = express();
 
