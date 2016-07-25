@@ -1,6 +1,6 @@
 import React, { Component, PropTypes } from 'react'
 import { connect } from 'react-redux'
-import { generateNumber, guessNumber } from '../actions'
+import { requestGenerateNumber, guessNumber } from '../actions'
 import Header from './header.js';
 
 class App extends Component {
@@ -8,7 +8,7 @@ class App extends Component {
     this.props.dispatch(guessNumber(parseInt(this.refs.numberGuess.value, 10)));
   }
   handleNumberGenerate() {
-    this.props.dispatch(generateNumber());
+    this.props.dispatch(requestGenerateNumber());
   }
   render() {
     return (
